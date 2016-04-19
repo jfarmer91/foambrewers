@@ -3,6 +3,22 @@
   background: rgba(0,0,0,0.3);
 }*/
 
+h3.beer-name {
+  color: #A92F41;
+}
+h1.page-name {
+  color: #91C7A9;
+}
+p.autobio-text {
+  font-size:16px;
+}
+
+div.autobio-row {
+  margin-top: 30px;
+  padding:15px 15px 15px 15px;
+  background-color: #848375;
+}
+
 .intro .intro-body {
   background: rgba(0,0,0,0.3);
 }
