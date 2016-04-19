@@ -19,6 +19,11 @@ div.autobio-row {
   background-color: #848375;
 }
 
+div.beer-row {
+  margin-top: 20px;
+  padding:15px 15px 15px 15px;
+}
+
 .intro .intro-body {
   background: rgba(0,0,0,0.3);
 }
