@@ -1,7 +1,14 @@
-/*.fb-image-filter {
-  padding: 20px 5px;
-  background: rgba(0,0,0,0.3);
+
+/*@media(orientation:landscape) {
+  padding-top:65px;
+  padding-bottom:50px;
 }*/
+@media (orientation: landscape) {
+  div.landing-page {
+    padding-top:75px;
+    padding-bottom:50px;
+  }
+}
 
 h1.page-title {
    width: 100%;
@@ -17,33 +24,15 @@ h1.page-title span {
     padding:0 10px;
 }
 
-@media (min-width:768px) {
-  .vertical-center {
-    /*min-height: 100%;*/  /* Fallback for browsers do NOT support vh unit */
-  /*  min-height: 100vh; *//* These two lines are counted as one :-)       */
-
-    display: flex;
-    align-items: center;
-  }
-}
 
 h3.beer-name {
-  color: #A92F41;
   color: rgb(50,50,50);
 }
 h1.page-name {
   color: #fff;
-  /*color: #91C7A9;*/
-  /*color: #87A85C;*/
 }
 p.autobio-text {
   font-size:16px;
-}
-
-div.autobio-row {
-  margin-top: 30px;
-  padding:15px 15px 15px 15px;
-  background-color: #848375;
 }
 
 div.beer-row {
@@ -54,19 +43,11 @@ div.beer-row {
   background-color: #E5DFC5;
 }
 
-.intro .intro-body {
-  /*background: rgba(0,0,0,0.35);*/
-}
-
 .fb-download-section-filter {
-  /*background: rgba(0,0,0,0.35);*/
   display: inline-block;
   padding: 100px 0;
   height: 100%;
   width: 100%;
-  /*display: table-cell;*/
-  /*vertical-align: middle;*/
-  /*box-sizing: border-box;*/
 }
 
 .fb-beers-brewery {
