@@ -2,13 +2,23 @@
   padding: 20px 5px;
   background: rgba(0,0,0,0.3);
 }*/
+@media (min-width:768px) {
+  .vertical-center {
+    /*min-height: 100%;*/  /* Fallback for browsers do NOT support vh unit */
+  /*  min-height: 100vh; *//* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+  }
+}
 
 h3.beer-name {
   color: #A92F41;
 }
 h1.page-name {
+  color: #fff;
   /*color: #91C7A9;*/
-  color: #87A85C;
+  /*color: #87A85C;*/
 }
 p.autobio-text {
   font-size:16px;
