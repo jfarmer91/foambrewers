@@ -10,9 +10,6 @@ body {
     font-family: 'futura-pt',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
-    /*background-color: #252120;*/
-    /*letter-spacing: 2px;*/
-    /*font-weight:bolder;*/
 }
 
 html {
@@ -339,7 +336,6 @@ a:focus {
 
     #map {
         height: 400px;
-        /*margin-top: 250px;*/
         margin-top: 25px;
     }
 }
@@ -347,7 +343,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'futura-pt',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

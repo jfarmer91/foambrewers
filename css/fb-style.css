@@ -43,6 +43,18 @@ div.beer-row {
   background-color: #E5DFC5;
 }
 
+div.other-row {
+  margin: 25px 15px 15px 15px;
+  padding:15px 15px 15px 15px;
+  color: #868685;
+  background-color: #E5DFC5;
+  min-height:170px;
+}
+div.other-row p {
+  font-size:16px;
+  margin-bottom:10px;
+}
+
 .fb-download-section-filter {
   display: inline-block;
   padding: 100px 0;
